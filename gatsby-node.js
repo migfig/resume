@@ -4,7 +4,7 @@
  * See: https://www.gatsbyjs.org/docs/node-apis/
  */
 
-const resumeContent = require('./src/data/resume.json');
+const resumeContent = require('./resume.json');
 
 exports.sourceNodes = ({ actions, createNodeId, createContentDigest }) => {
   const resumes = [resumeContent];
