@@ -1,6 +1,6 @@
 {
   "name": "resume",
-  "private": true,
+  "private": false,
   "description": "My own resume using Gatsby",
   "version": "1.0.0",
   "author": "Miguel Figueroa <micky.figueroa@hotmail.com>",
