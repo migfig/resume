@@ -1,7 +1,7 @@
 {
   "name": "resume",
   "private": false,
-  "description": "My own resume using Gatsby",
+  "description": "My own resume using Gatsby and React",
   "version": "1.0.0",
   "author": "Miguel Figueroa <micky.figueroa@hotmail.com>",
   "dependencies": {
