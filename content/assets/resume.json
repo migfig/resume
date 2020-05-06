@@ -1,0 +1,951 @@
+{
+  "type": "Resume",
+  "name": "Miguel A Figueroa",
+  "title": "Software Engineer",
+  "emails": [
+    "micky.figueroa@hotmail.com"
+  ],
+  "phones": [
+    {
+      "number": "-",
+      "kind": "mobile"
+    }
+  ],
+  "photo": "",
+  "status": "Married",
+  "dateOfBirth": "Dec 31, 1968",
+  "address": {
+    "street": "",
+    "number": "",
+    "city": "Ciudad Juarez",
+    "state": "CHIH",
+    "zip": "",
+    "country": "MX"
+  },
+  "developmentExperience": [
+    {
+      "description": "Web API services using GraphQL Apollo, JHipster SpringBoot, Node Express, ASP.NET Core Web API, WCF and legacy Web methods.",
+      "replacements": [
+        {
+          "label": "GraphQL Apollo",
+          "url": "https://www.apollographql.com/"
+        },
+        {
+          "label": "JHipster SpringBoot",
+          "url": "https://www.jhipster.tech/"
+        },
+        {
+          "label": "ASP.NET Core",
+          "url": "https://docs.microsoft.com/en-us/aspnet/core/?view=aspnetcore-3.1"
+        }
+      ],
+      "annotations": [
+        {
+          "label": "Node Express",
+          "type": "italic"
+        },
+        {
+          "label": "WCF",
+          "type": "italic"
+        }
+      ]
+    },
+    {
+      "description": "Web applications using React/Redux, Angular, ASP.NET MVC with Razor, ASP.NET Web forms, plus legacy ASP.",
+      "replacements": [
+        {
+          "label": "React",
+          "url": "https://reactjs.org/"
+        },
+        {
+          "label": "Angular",
+          "url": "https://angular.io/"
+        }
+      ],
+      "annotations": [
+        {
+          "label": "ASP.NET",
+          "type": "bold"
+        }
+      ]
+    },
+    {
+      "description": "Windows services for managing customer workflows using messaging frameworks like RabbitMQ, etc.",
+      "replacements": [
+        {
+          "label": "RabbitMQ",
+          "url": "https://www.rabbitmq.com/"
+        }
+      ],
+      "annotations": [
+        {
+          "label": "Windows services",
+          "type": "italic"
+        }
+      ]
+    },
+    {
+      "description": "Database services creating or updating SQL store procedures, functions or direct SQL statements and data migrations, this for MS SQL Server, Oracle, PostgreSQL, SQLite and document databases like Mongo DB.",
+      "replacements": [
+        { 
+          "label": "", 
+          "url": ""
+        }
+      ],
+      "annotations": [
+        {
+          "label": "SQL Server",
+          "type": "bold"
+        },
+        {
+          "label": "Oracle",
+          "type": "bold"
+        },
+        {
+          "label": "PostgreSQL",
+          "type": "bold"
+        },
+        {
+          "label": "Mongo DB",
+          "type": "bold"
+        }
+      ]
+    },
+    {
+      "description": "Desktop applications using WPF/UWP and WindowsForms and a little bit of cross platform Electron.",
+      "replacements": [
+        {
+          "label": "WPF",
+          "url": "https://docs.microsoft.com/en-us/visualstudio/designers/getting-started-with-wpf?view=vs-2019"
+        },
+        {
+          "label": "UWP",
+          "url": "https://docs.microsoft.com/en-us/windows/uwp/get-started/universal-application-platform-guide"
+        },
+        {
+          "label": "Electron",
+          "url": "https://www.electronjs.org/"
+        }
+      ],
+      "annotations": [
+        {
+          "label": "Desktop applications",
+          "type": "italic"
+        }
+      ]
+    },
+    {
+      "description": "Mobile applications using Flutter for Android/IOS and Java for Android.",
+      "replacements": [
+        {
+          "label": "Flutter",
+          "url": "https://flutter.dev/"
+        }
+      ],
+      "annotations": [
+        {
+          "label": "Android",
+          "type": "bold"
+        },
+        {
+          "label": "IOS",
+          "type": "bold"
+        }
+      ]
+    },
+    {
+      "description": "Cloud services including VM provisioning, User credentials management, Setup of resources monitoring/etc. using VMware (VCD/NSX), Beyond Trust, Panopta infrastructure monitoring respectively, etc.",
+      "replacements": [
+        {
+          "label": "VCD",
+          "url": "https://www.vmware.com/mena/products/cloud-director.html"
+        },
+        {
+          "label": "NSX",
+          "url": "https://www.vmware.com/products/nsx.html"
+        },
+        {
+          "label": "Beyond Trust",
+          "url": "https://www.beyondtrust.com/"
+        },
+        {
+          "label": "Panopta",
+          "url": "https://www.panopta.com/"
+        }
+      ],
+      "annotations": [
+        {
+          "label": "Cloud services",
+          "type": "italic"
+        }
+      ]
+    },
+    {
+      "description": "Machine Learning using TensorFlow with Python programming language.",
+      "replacements": [
+        {
+          "label": "TensorFlow",
+          "url": "https://www.tensorflow.org/"
+        }
+      ],
+      "annotations": [
+        {
+          "label": "Python",
+          "type": "bold"
+        }
+      ]
+    }
+  ],
+  "workExperience": [
+    {
+      "company": "Tiempo Development (Armor)",
+      "location": "Monterrey NL",
+      "startDate": "Apr 2015",
+      "endDate": "Dec 2018",
+      "position": "Software Engineer IV/Technical Lead",
+      "jobDescription": "Development of Secured Cloud Backend/Frontend Services",
+      "achievements": [
+        "Reduced waiting time to spin VM’s from days or hours to a few minutes due customers now can self-provision their VM’s and its resources instead of requiring manual/semi-automated help support. This also reduced the need for extra help support people"
+      ],
+      "functionalExperience": [
+        "Got some understanding of Cloud services provisioning, with VMWare and other cloud services. Usage of service bus messaging, cache services, scheduled execution of code, unit and integration testing and implementation of Agile methodologies"
+      ],
+      "tools": [
+        "Visual Studio 2013",
+        "VMWare VCD/NSX and its API’s",
+        "RabbitMQ",
+        "Redis Cache",
+        "HangFire",
+        "Windsor Castle",
+        "TopShelf",
+        "Moq",
+        "JIRA for project/tasks management",
+        "Github for code management"
+      ]
+    },
+    {
+      "company": "HP Enterprise Services LLC",
+      "location": "El Paso, TX",
+      "startDate": "Oct 2011",
+      "endDate": "Aug 2012",
+      "position": "Software Engineer",
+      "jobDescription": "Maintenance of Healthcare online enrollment web applications",
+      "achievements": [
+        "Reduced time to document changes from tenths of minutes to couple of minutes by implementing a Visual Studio plugin which automated the process of identifying code changes and generates a MS Word document with those changes and its reason & ticket #"
+      ],
+      "functionalExperience": [
+        "Got some knowledge about the US Healthcare system"
+      ],
+      "tools": [
+        "Visual Studio 2010",
+        "Oracle PL/SQL",
+        "SQLDeveloper",
+        "ASP.NET Web Forms",
+        "ActiveRecord as ORM",
+        "TFS for project/tasks management"
+      ]
+    },
+    {
+      "company": "ADC",
+      "location": "Cd. Juarez, CHIH",
+      "startDate": "Oct 2007",
+      "endDate": "Dec 2009",
+      "position": "Software Engineer",
+      "jobDescription": "Maintenance of Optical Fiber processing desktop/server applications",
+      "achievements": [
+        "Improved the optical fibers manufacture process and its quality by designing and implementing a real time monitor application showing the KPI and FPY values as interactive graphs, this available to engineers/supervisors/operators on each manufacture line, also included some scheduled & automated reports sent via email notifications. Improved code maintainability and time to implement new features by upgrading an entire VB6 client/server application with tenths of pages/forms/reports to DotNet C# in about 1 month. Improved time to setup workflows from coding days to hours (~ 80%) by designing and implementing an xml configurable workflow"
+      ],
+      "functionalExperience": [
+        "Got knowledge of the Optical Fibers processing, its related tools and its integration with SAP orders processing. Followed SCM processes and its documentation"
+      ],
+      "tools": [
+        "Visual Studio 2008",
+        "Source Control",
+        "Crystal Reports",
+        "Visual Basic 6",
+        "Oracle",
+        "SQLDeveloper"
+      ]
+    },
+    {
+      "company": "EDM Del Norte/Genpact",
+      "location": "Cd. Juarez, CHIH",
+      "startDate": "Nov 1998",
+      "endDate": "Oct 2007",
+      "position": "Software Engineer",
+      "jobDescription": "Analysis, design, development and maintenance of Desktop and Web data entry applications and Software evaluator/Interviewer of software engineer candidates",
+      "achievements": [
+        "Reduced time to implement data entry/lookup/reporting features from weeks to days, by designing & implementing a database based configurable system allowing us to just configure pages/forms & its related field validations for each of the customers"
+      ],
+      "functionalExperience": [
+        "Got knowledge of the physical document digitization process and its related tools, uploading and retrieving documents content with IBM FileNet Content Services and its API's, Accusoft Image processing and its API's"
+      ],
+      "tools": [
+        "Visual Studio 2005",
+        "MKS Source Integrity",
+        "Crystal Reports (including RAS)",
+        "Visual Basic 6",
+        "TOAD",
+        "Savvion Workflows Designer"
+      ]
+    },
+    {
+      "company": "RIO Bravo X (Delphi)",
+      "location": "Cd. Juarez, CHIH",
+      "startDate": "Feb 1994",
+      "endDate": "Nov 1998",
+      "position": "Jr. Software Engineer/Technical",
+      "jobDescription": "Analysis, design and development of DOS and Windows applications, Help Desk support and Electrical sequences programmer",
+      "achievements": [
+        "Improved time to edit electrical sequences (~50%) by implementing a custom text editor with smart validations"
+      ],
+      "functionalExperience": [
+        "Understanding of electrical sequences coding. Barcodes generation and its processing"
+      ],
+      "tools": [
+        "Visual Basic 6",
+        "Clipper",
+        "AutoCAD",
+        "AutoLisp scripting"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "title": "Bachelor's in Computer Science",
+      "schoolName": "Instituto Tecnologico de Ciudad Juarez",
+      "location": "Ciudad Juarez",
+      "startDate": "1990",
+      "endDate": "1996"
+    },
+    {
+      "title": "Certificate (first year)",
+      "schoolName": "Instituto de Filosofía A.C.",
+      "location": "Guadalajara, JAL",
+      "startDate": "1988",
+      "endDate": "1989"
+    },
+    {
+      "title": "Certificate (Mining Technician)",
+      "schoolName": "C.B.T.I.S. 104",
+      "location": "Sombrerete, ZAC",
+      "startDate": "1983",
+      "endDate": "1986"
+    }
+  ],
+  "certifications": [
+    {
+      "title": "AWS IoT Fundamentals/Core",
+      "schoolName": "Amazon Web Services",
+      "location": "online",
+      "startDate": "",
+      "endDate": "2020"
+    },
+    {
+      "title": "CS224N: Natural Language Processing",
+      "schoolName": "StandfordOnline",
+      "location": "online",
+      "startDate": "",
+      "endDate": "2019"
+    },
+    {
+      "title": "Practical Machine Learning (Jeremy Howard)",
+      "schoolName": "FastAI",
+      "location": "online",
+      "startDate": "",
+      "endDate": "2019"
+    },
+    {
+      "title": "Machine Learning (Andrew Ng)",
+      "schoolName": "Coursera",
+      "location": "online",
+      "startDate": "",
+      "endDate": "2018"
+    },
+    {
+      "title": "React Hooks",
+      "schoolName": "PluralSight",
+      "location": "online",
+      "startDate": "",
+      "endDate": "2019"
+    },
+    {
+      "title": "Docker Course for Web Developers",
+      "schoolName": "PluralSight",
+      "location": "online",
+      "startDate": "",
+      "endDate": "2018"
+    },
+    {
+      "title": "Project Management for Non-Project Managers",
+      "schoolName": "Skillsoft",
+      "location": "online",
+      "startDate": "",
+      "endDate": "2008"
+    },
+    {
+      "title": "Six Sigma/Lean Manufacturing",
+      "schoolName": "Genpact",
+      "location": "in-site",
+      "startDate": "",
+      "endDate": "2006"
+    },
+    {
+      "title": "Programming FileNet P8 Content Management/Process Engine with Java",
+      "schoolName": "Filenet Professional Services",
+      "location": "in-site",
+      "startDate": "",
+      "endDate": "2007"
+    },
+    {
+      "title": "IBM FileNet P8 Records Management Administration",
+      "schoolName": "Filenet Professional Services",
+      "location": "in-site",
+      "startDate": "",
+      "endDate": "2007"
+    }
+  ],
+  "idioms": [
+    {
+      "name": "English (working/fluent)",
+      "level": "5th Level",
+      "schoolName": "ITESM/EPCC",
+      "location": "in-site"
+    }
+  ],
+  "projects": [
+    {
+      "description": "Regarding the Windows Universal Platform applications, created an app which acts as a training assistant, able to display a presentation (slides) and integrated with Visual Studio 2015 to automatically insert code snippets via VSIX packages",
+      "replacements": [
+        {
+          "label": "training assistant",
+          "url": "https://github.com/migfig/Labs/tree/master/Trainer"
+        }
+      ],
+      "annotations": [
+        {
+          "label": "Windows Universal Platform",
+          "type": "italic"
+        },
+        {
+          "label": "VSIX",
+          "type": "italic"
+        }
+      ],
+      "startDate": "",
+      "endDate": "2017",
+      "tools": [
+        "Visual Studio 2015",
+        "VSIX packages",
+        "UWP"
+      ],
+      "screenShots": [
+        {
+          "name": "Training Assistant",
+          "url": "trainer.png"
+        },
+        {
+          "name": "Plugable Control",
+          "url": "trainer-component.png"
+        }
+      ]
+    },
+    {
+      "description": "Have an Arduino and Raspberry PI 2 cards to do experiments and learn more about IoT. Recently ingested analog temperature readings from the Raspberry PI 2 into AWS IoT services",
+      "replacements": [
+        { 
+          "label": "", 
+          "url": ""
+        }
+      ],
+      "annotations": [
+        {
+          "label": "Arduino",
+          "type": "bold"
+        },
+        {
+          "label": "Raspberry",
+          "type": "bold"
+        },
+        {
+          "label": "IoT",
+          "type": "bold"
+        }
+      ],
+      "startDate": "",
+      "endDate": "2020",
+      "tools": [
+        "Python",
+        "AWS IoT"
+      ],
+      "screenShots": []
+    },
+    {
+      "description": "Created a WPF windows application for testing REST API services, also a Related records viewer (WPF) to help with database records visualization, you can see the code at github",
+      "replacements": [
+        {
+          "label": "github",
+          "url": "https://github.com/migfig/Labs/tree/master"
+        }
+      ],
+      "annotations": [
+        {
+          "label": "WPF",
+          "type": "bold"
+        },
+        {
+          "label": "REST API",
+          "type": "bold"
+        }
+      ],
+      "startDate": "",
+      "endDate": "2017",
+      "tools": [
+        "Visual Studio 2017",
+        "WPF",
+        "Material Design"
+      ],
+      "screenShots": [
+        {
+          "name": "Related Records Viewer",
+          "url": "relatedrecordswpf.png"
+        },
+        {
+          "name": "Related Records Viewer",
+          "url": "relatedrecordsgoldparser.png"
+        },
+        {
+          "name": "API Tester",
+          "url": "apitesterwpf.png"
+        }
+      ]
+    },
+    {
+      "description": "Worked (only for the sake of learning) with Cloudera and HortonWorks Hadoop sandboxes to automate the process of generating Task Processing scripts. Basically the application expects a dropped file and loads the content. An external service discovers then the available column names and its types. From this column values, a HIVE and PIG script or a Java Map-Reduce task file is created to be later executed within the proper Hadoop environment",
+      "replacements": [
+        {
+          "label": "Cloudera",
+          "url": "http://www.cloudera.com/content/cloudera/en/home.html"
+        },
+        {
+          "label": "HortonWorks",
+          "url": "http://hortonworks.com/"
+        },
+        {
+          "label": "application",
+          "url": "http://youtu.be/gZ_e6H_WK1s"
+        }
+      ],
+      "annotations": [
+        {
+          "label": "Hadoop",
+          "type": "bold"
+        },
+        {
+          "label": "HIVE",
+          "type": "bold"
+        },
+        {
+          "label": "PIG",
+          "type": "bold"
+        }
+      ],
+      "startDate": "",
+      "endDate": "2014",
+      "tools": [
+        "Cloudera",
+        "HortonWorks",
+        "Hadoop",
+        "BigData",
+        "Pig",
+        "Hive"
+      ],
+      "screenShots": [
+        {
+          "name": "1Drop Hadoop",
+          "url": "1drop-hadoop.png"
+        }
+      ]
+    },
+    {
+      "description": "Created a POC, working version of 1Drop, application framework for easily creating android, windows phone, and Hadoop applications: just dropping a folder with CSV files or a SQLite database",
+      "replacements": [
+        {
+          "label": "1Drop",
+          "url": "http://youtu.be/aCnlg1I-B6E"
+        },
+        {
+          "label": "Hadoop",
+          "url": "http://youtu.be/gZ_e6H_WK1s"
+        }
+      ],
+      "annotations": [
+        {
+          "label": "android",
+          "type": "bold"
+        },
+        {
+          "label": "windows phone",
+          "type": "bold"
+        }
+      ],
+      "startDate": "",
+      "endDate": "2020",
+      "tools": [
+        "Android",
+        "Windows Phone",
+        "WPF",
+        "SQLite"
+      ],
+      "screenShots": [
+        {
+          "name": "1Drop Applications",
+          "url": "1drop.png"
+        },
+        {
+          "name": "1Drop Groceries App",
+          "url": "1drop-groceries.png"
+        },
+        {
+          "name": "1Drop NorthWind App",
+          "url": "1drop-win-phone.png"
+        }
+      ]
+    }
+  ],
+  "recentProjects": [
+    {
+      "description": "Created a client/server cross-platform application designer to quickly define database entities and generate applications/software artifacts from them using snippets and components (Lego like components)",
+      "replacements": [
+        { 
+          "label": "", 
+          "url": ""
+        }
+      ],
+      "annotations": [
+        {
+          "label": "database entities",
+          "type": "bold"
+        }
+      ],
+      "startDate": "2019",
+      "endDate": "2020",
+      "tools": [
+        "Angular 7 TypeScript components and services",
+        "PrimeNG/NGX-Bootstrap UI components",
+        "DotNet Core 3 C# API services with PostgreSQL Marten Document Db and DDD using Event Source pattern, with Authentication/Authorization features",
+        "Swagger for API documentation",
+        "Ubuntu 18.04",
+        "VsCode",
+        "PostgreSQL 12.0 running on Docker",
+        "Monaco editor for code snippets in C#, JavaScript, TypeScript and Python"
+      ],
+      "screenShots": [
+        {
+          "name": "Designer Entities",
+          "url": "designer-entity.png"
+        },
+        {
+          "name": "Angular API & Component",
+          "url": "angular-api-component.png"
+        },
+        {
+          "name": "Dotnet Core API",
+          "url": "dotnet-api.png"
+        },
+        {
+          "name": "Controllers startup",
+          "url": "dotnet-controller-startup.png"
+        },
+        {
+          "name": "Integration Testing",
+          "url": "integration-testing.png"
+        }
+      ]
+    },
+    {
+      "description": "Generated Artifact: GraphQL Apollo JavaScript server for backend API’s access with its schemas, resolvers and data sources",
+      "replacements": [
+        { 
+          "label": "", 
+          "url": ""
+        }
+      ],
+      "annotations": [
+        {
+          "label": "Generated Artifact",
+          "type": "italic"
+        },
+        {
+          "label": "GraphQL Apollo",
+          "type": "bold"
+        }
+      ],
+      "startDate": "2019",
+      "endDate": "2020",
+      "tools": [
+        "GraphQL Apollo"
+      ],
+      "screenShots": [
+        {
+          "name": "Apollo artifacts",
+          "url": "apollo-schema-resolver-ds.png"
+        }
+      ]
+    },
+    {
+      "description": "Generated Artifact: Angular 7/PrimeNG/NGX-Bootstrap TypeScript web client",
+      "replacements": [
+        { 
+          "label": "", 
+          "url": ""
+        }
+      ],
+      "annotations": [
+        {
+          "label": "Generated Artifact",
+          "type": "italic"
+        },
+        {
+          "label": "Angular",
+          "type": "bold"
+        }
+      ],
+      "startDate": "2019",
+      "endDate": "2020",
+      "tools": [
+        "Angular",
+        "PrimeNG",
+        "NGX-Bootstrap"
+      ],
+      "screenShots": [
+        {
+          "name": "Angular API access",
+          "url": "angular-api-component.png"
+        }
+      ]
+    },
+    {
+      "description": "Generated Artifact: React JavaScript web client (based on react-bootstrap)",
+      "replacements": [
+        { 
+          "label": "", 
+          "url": ""
+        }
+      ],
+      "annotations": [
+        {
+          "label": "Generated Artifact",
+          "type": "italic"
+        },
+        {
+          "label": "React",
+          "type": "bold"
+        }
+      ],
+      "startDate": "2019",
+      "endDate": "2020",
+      "tools": [
+        "React",
+        "Bootstrap"
+      ],
+      "screenShots": [
+        {
+          "name": "React Components",
+          "url": "react-component-render-layout.png"
+        }
+      ]
+    },
+    {
+      "description": "Generated Artifact: Flutter Dart IOS/Android mobile application with DotNet Core 3 C# API services integration and Authentication/Authorization services",
+      "replacements": [
+        { 
+          "label": "", 
+          "url": ""
+        }
+      ],
+      "annotations": [
+        {
+          "label": "Generated Artifact",
+          "type": "italic"
+        },
+        {
+          "label": "Flutter",
+          "type": "bold"
+        },
+        {
+          "label": "DotNet Core",
+          "type": "bold"
+        }
+      ],
+      "startDate": "2019",
+      "endDate": "2020",
+      "tools": [
+        "Flutter",
+        "DotNet Core",
+        "IOS",
+        "Android"
+      ],
+      "screenShots": [
+        {
+          "name": "Flutter Widgets middleware",
+          "url": "flutter-widget-middleware.png"
+        },
+        {
+          "name": "Flutter API access",
+          "url": "flutter-api-repos.png"
+        },
+        {
+          "name": "Medical App",
+          "url": "signin-signup.png"
+        },        
+        {
+          "name": "Vms and Products Apps",
+          "url": "drawer-dashboards.png"
+        }
+      ]
+    },
+    {
+      "description": "Generated Artifact: Tensorflow (including Hub) or FastAI Jupyter Notebook for Image or Text classification and Time series forecasting",
+      "replacements": [
+        { 
+          "label": "", 
+          "url": ""
+        }
+      ],
+      "annotations": [
+        {
+          "label": "Generated Artifact",
+          "type": "italic"
+        },
+        {
+          "label": "Tensorflow",
+          "type": "bold"
+        }
+      ],
+      "startDate": "2019",
+      "endDate": "2020",
+      "tools": [
+        "Tensorflow",
+        "Jupyter Notebook",
+        "FastAI"
+      ],
+      "screenShots": [
+        {
+          "name": "Machine Learning Components",
+          "url": "mlapp-comps.png"
+        },
+        {
+          "name": "Snippet Editor",
+          "url": "mlapp-editor-snippets.png"
+        },
+        {
+          "name": "Compile and Train Model",
+          "url": "compile-train.png"
+        },
+        {
+          "name": "Plot Batch",
+          "url": "plot-batch.png"
+        },
+        {
+          "name": "Export Trained Model",
+          "url": "save-tensorflow-lite.png"
+        }
+      ]
+    },
+    {
+      "description": "Created a web client React application builder consuming GraphQL Apollo services where applications and its pages can be designed and generated by only selecting components and choosing/setting its properties",
+      "replacements": [
+        { 
+          "label": "", 
+          "url": ""
+        }
+      ],
+      "annotations": [
+        {
+          "label": "application builder",
+          "type": "italic"
+        },
+        {
+          "label": "GraphQL Apollo",
+          "type": "bold"
+        }
+      ],
+      "startDate": "2020",
+      "endDate": "2020",
+      "tools": [
+        "React",
+        "GraphQL Apollo",
+        "AirFrame-React"
+      ],
+      "screenShots": [
+        {
+          "name": "Builder Components Designer",
+          "url": "builder-designer-comps.png"
+        },
+        {
+          "name": "Page Preview",
+          "url": "builder-page-preview.png"
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web/Windows Services development",
+      "stack": "C# - ASP.NET Core, Redis cache, Rabbit Message Queue, UWP, WPF, WinForms, TopShelf",
+      "level": "Proficient"
+    },
+    {
+      "name": "Web Applications/Services development",
+      "stack": "JavaScript, TypeScript, GraphQL Apollo, Node Express, Objection (ORM), React-Redux, Gatsby, mocha, checkit, fake, choice, lodash, npm, yarn, etc.",
+      "level": "Proficient/Need Reference"
+    },
+    {
+      "name": "Database development",
+      "stack": "MS SQLServer, Oracle, PostgreSQL, SQLite, Mongo Db, Functions, Store procedures, DDL manipulation, migrations",
+      "level": "Proficient/Need Reference on PostgreSQL/MongoDb"
+    },
+    {
+      "name": "IOS/Android Mobile Applications",
+      "stack": "Flutter, Java",
+      "level": "Proficient/Need Reference"
+    },
+    {
+      "name": "Machine Learning",
+      "stack": "Tensorflow, Jupyter Notebooks",
+      "level": "Basic/Need Reference"
+    },
+    {
+      "name": "JHipster Spring-Boot",
+      "stack": "Java microservices",
+      "level": "Basic/Need Reference"
+    },
+    {
+      "name": "Unit/Integration Testing",
+      "stack": "NUnit, XUnit, SpecFlow, Moq, mocha, jest",
+      "level": "Proficient/Need Reference"
+    },
+    {
+      "name": "Continuous Integration (CI)",
+      "stack": "Bamboo, Octopus",
+      "level": "Developer role Knowledge"
+    },
+    {
+      "name": "Agile",
+      "stack": "Scrum, JIRA",
+      "level": "Developer role Knowledge"
+    },
+    {
+      "name": "Communication with Client/Management/Team peers",
+      "stack": "Slack, HipChat, MS Teams",
+      "level": "Proficient"
+    }
+  ],
+  "hobies": [
+    "Play guitar",
+    "Watch music videos",
+    "Read books",
+    "Home coding for fun"
+  ]
+}
