@@ -33,10 +33,10 @@ const Skills = (props) => {
                                 <tbody>
                                     {skills.map((skill, i) =>
                                         <tr key={`skill${i}`}>
-                                            <td>{skill.name}</td>
+                                            <td><span dangerouslySetInnerHTML={{__html: skill.name}}></span></td>
                                             <td>
                                                 <ul>
-                                                    {skill.stack.split(',').map((s, j) => <li key={`staListItm${j}`}><small>{s}</small></li>)}
+                                                    {skill.stack.split(',').map((s, j) => <li key={`staListItm${j}`}><small dangerouslySetInnerHTML={{__html: s}}></small></li>)}
                                                 </ul>
                                             </td>
                                             <td><i>{skill.level}</i></td>
@@ -44,6 +44,7 @@ const Skills = (props) => {
                                     )}
                                 </tbody>
                             </Table>
+                            Notes: <i>&#185;</i> = only in personal projects
                         </Card.Body>
                     </Accordion.Collapse>
                 </Card>

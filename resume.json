@@ -1,6 +1,6 @@
 {
   "type": "Resume",
-  "name": "Miguel A Figueroa",
+  "name": "Miguel Figueroa",
   "title": "Software Engineer",
   "emails": [
     "micky.figueroa@hotmail.com"
@@ -199,7 +199,7 @@
   "workExperience": [
     {
       "company": "UnoSquare LLC (Hub)",
-      "location": "Cd. Juarez, CHIH",
+      "location": "Cd. Juarez, CHIH - Remote",
       "startDate": "Sept 2020",
       "endDate": "May 2022",
       "position": "Software Engineer/Technical Lead",
@@ -220,7 +220,7 @@
     },
     {
       "company": "Tiempo Development (Armor)",
-      "location": "Monterrey NL",
+      "location": "Monterrey NL & Remote",
       "startDate": "Apr 2015",
       "endDate": "Dec 2018",
       "position": "Software Engineer IV/Technical Lead",

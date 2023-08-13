@@ -51,12 +51,12 @@ const Header = ({ siteTitle, subTitle, extraData }) => (
         </Col>
         <Col lg={4}>
           <div style={{ color: `white` }}>
-            <div>
+            {/* <div>
               <small>Phone:</small>
               {extraData.phones.map((p, i) =>
                 <small key={`ph${i}`}> <strong>{p.number}</strong> ({p.kind})</small>
               )}
-            </div>
+            </div> */}
             <div>
               <small>eMail:</small>
               {extraData.emails.map((e, i) =>
