@@ -24,8 +24,12 @@
   },
   "developmentExperience": [
     {
-      "description": "Web API services using GraphQL Apollo, JHipster SpringBoot, Node Express, ASP.NET Core Web API, WCF and legacy Web methods.",
+      "description": "Web API services using ASP.NET Core Web API, WCF and legacy Web methods, FastApi &#185;, GraphQL Apollo &#185;, JHipster SpringBoot &#185; & Node Express",
       "replacements": [
+        {
+          "label": "ASP.NET Core",
+          "url": "https://docs.microsoft.com/en-us/aspnet/core/?view=aspnetcore-3.1"
+        },
         {
           "label": "GraphQL Apollo",
           "url": "https://www.apollographql.com/"
@@ -33,39 +37,35 @@
         {
           "label": "JHipster SpringBoot",
           "url": "https://www.jhipster.tech/"
-        },
-        {
-          "label": "ASP.NET Core",
-          "url": "https://docs.microsoft.com/en-us/aspnet/core/?view=aspnetcore-3.1"
         }
       ],
       "annotations": [
         {
-          "label": "Node Express",
-          "type": "italic"
-        },
-        {
-          "label": "WCF",
-          "type": "italic"
+          "label": "",
+          "type": ""
         }
       ]
     },
     {
-      "description": "Web applications using React/Redux, Angular, ASP.NET MVC with Razor, ASP.NET Web forms, plus legacy ASP.",
+      "description": "Web applications using ASP.NET MVC with Razor, ASP.NET Web forms, plus legacy ASP, Angular, Blazor &#185;, React/Redux & Quasar (Vue &#185;)",
       "replacements": [
         {
-          "label": "React",
-          "url": "https://reactjs.org/"
+          "label": "ASP.NET",
+          "url": "https://wwww.asp.net/"
         },
         {
           "label": "Angular",
           "url": "https://angular.io/"
+        },
+        {
+          "label": "React",
+          "url": "https://reactjs.org/"
         }
       ],
       "annotations": [
         {
-          "label": "ASP.NET",
-          "type": "bold"
+          "label": "",
+          "type": ""
         }
       ]
     },
@@ -79,13 +79,13 @@
       ],
       "annotations": [
         {
-          "label": "Windows services",
-          "type": "italic"
+          "label": "",
+          "type": ""
         }
       ]
     },
     {
-      "description": "Database services creating or updating SQL store procedures, functions or direct SQL statements and data migrations, this for MS SQL Server, Oracle, PostgreSQL, SQLite and document databases like Mongo DB.",
+      "description": "Database services creating or updating SQL store procedures, functions or direct SQL statements and data migrations, this for MS SQL Server, Oracle, PostgreSQL, SQLite and document databases like Mongo DB",
       "replacements": [
         { 
           "label": "", 
@@ -112,7 +112,7 @@
       ]
     },
     {
-      "description": "Desktop applications using WPF/UWP and WindowsForms and a little bit of cross platform Electron.",
+      "description": "Desktop applications using WPF/UWP and WindowsForms and a little bit of cross platform Electron &#185;",
       "replacements": [
         {
           "label": "WPF",
@@ -129,13 +129,13 @@
       ],
       "annotations": [
         {
-          "label": "Desktop applications",
-          "type": "italic"
+          "label": "",
+          "type": ""
         }
       ]
     },
     {
-      "description": "Mobile applications using Flutter for Android/IOS and Java for Android.",
+      "description": "Mobile applications &#185; using Flutter for Android/IOS and Java for Android",
       "replacements": [
         {
           "label": "Flutter",
@@ -175,13 +175,13 @@
       ],
       "annotations": [
         {
-          "label": "Cloud services",
-          "type": "italic"
+          "label": "",
+          "type": ""
         }
       ]
     },
     {
-      "description": "Machine Learning using TensorFlow with Python programming language.",
+      "description": "Machine Learning &#185; using TensorFlow with Python programming language",
       "replacements": [
         {
           "label": "TensorFlow",
@@ -197,6 +197,27 @@
     }
   ],
   "workExperience": [
+    {
+      "company": "UnoSquare LLC (Hub)",
+      "location": "Cd. Juarez, CHIH",
+      "startDate": "Sept 2020",
+      "endDate": "May 2022",
+      "position": "Software Engineer/Technical Lead",
+      "jobDescription": "Development of Virtual Events (Azure Based) Backend/Frontend Services",
+      "achievements": [
+        "Provided dynamic event pages setup, which allowed customers to setup custom pages for their events, without the need for extra development or customer support"
+      ],
+      "functionalExperience": [
+        "Got some understanding of Cloud event services, with Microsoft Azure as backend and other cloud services. Usage of cache services, unit and integration testing, google Fonts, SASS usage and implementation of Agile methodologies"
+      ],
+      "tools": [
+        "Visual Studio 2017",
+        "Azure Cloud services",
+        "Redis Cache",
+        "Teams for project/tasks management",
+        "Github for code management"
+      ]
+    },
     {
       "company": "Tiempo Development (Armor)",
       "location": "Monterrey NL",
@@ -418,22 +439,22 @@
       "description": "Regarding the Windows Universal Platform applications, created an app which acts as a training assistant, able to display a presentation (slides) and integrated with Visual Studio 2015 to automatically insert code snippets via VSIX packages",
       "replacements": [
         {
+          "label": "Windows Universal Platform",
+          "url": "https://learn.microsoft.com/uwp"
+        },
+        {
           "label": "training assistant",
           "url": "https://github.com/migfig/Labs/tree/master/Trainer"
         }
       ],
       "annotations": [
         {
-          "label": "Windows Universal Platform",
-          "type": "italic"
-        },
-        {
           "label": "VSIX",
           "type": "italic"
         }
       ],
-      "startDate": "",
-      "endDate": "2017",
+      "startDate": "2020",
+      "endDate": "2020",
       "tools": [
         "Visual Studio 2015",
         "VSIX packages",
@@ -472,7 +493,7 @@
           "type": "bold"
         }
       ],
-      "startDate": "",
+      "startDate": "2020",
       "endDate": "2020",
       "tools": [
         "Python",
@@ -481,10 +502,10 @@
       "screenShots": []
     },
     {
-      "description": "Created a WPF windows application for testing REST API services, also a Related records viewer (WPF) to help with database records visualization, you can see the code at github",
+      "description": "Created a WPF windows application for testing REST API services, also a Related records viewer (WPF) to help with database records visualization",
       "replacements": [
         {
-          "label": "github",
+          "label": "Created",
           "url": "https://github.com/migfig/Labs/tree/master"
         }
       ],
@@ -498,7 +519,7 @@
           "type": "bold"
         }
       ],
-      "startDate": "",
+      "startDate": "2017",
       "endDate": "2017",
       "tools": [
         "Visual Studio 2017",
@@ -538,10 +559,6 @@
       ],
       "annotations": [
         {
-          "label": "Hadoop",
-          "type": "bold"
-        },
-        {
           "label": "HIVE",
           "type": "bold"
         },
@@ -550,7 +567,7 @@
           "type": "bold"
         }
       ],
-      "startDate": "",
+      "startDate": "2014",
       "endDate": "2014",
       "tools": [
         "Cloudera",
@@ -581,16 +598,12 @@
       ],
       "annotations": [
         {
-          "label": "android",
-          "type": "bold"
-        },
-        {
-          "label": "windows phone",
-          "type": "bold"
+          "label": "",
+          "type": ""
         }
       ],
-      "startDate": "",
-      "endDate": "2020",
+      "startDate": "2013",
+      "endDate": "2013",
       "tools": [
         "Android",
         "Windows Phone",
@@ -614,6 +627,148 @@
     }
   ],
   "recentProjects": [
+    {
+      "description": "Created a FlairNLP NER prompt engine Blazor application for generating code artifacts/applications for several frameworks.",
+      "replacements": [
+        { 
+          "label": "FlairNLP", 
+          "url": "https://github.com/flairNLP/flair"
+        },
+        { 
+          "label": "Blazor", 
+          "url": "https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor"
+        }
+      ],
+      "annotations": [
+        {
+          "label": "generating code artifacts",
+          "type": "bold"
+        },
+        {
+          "label": "applications",
+          "type": "bold"
+        }
+      ],
+      "startDate": "2023",
+      "endDate": "2023",
+      "tools": [
+        "NLP (natural language processing)",
+        "Flair (python)",
+        "FastAPI & Uvicorn (python)",
+        "C# Blazor WASM",
+        "DotNet Core 7 C# API services with Authentication/Authorization features",
+        "Entity Framework",
+        "VsCode",
+        "PostgreSQL 15.0 running on Docker"
+      ],
+      "screenShots": [
+        {
+          "name": "Prompt Engine",
+          "url": "ppt-engine.webp"
+        },
+        {
+          "name": "Workflows Generated Sample",
+          "url": "workflows.webp"
+        }
+      ]
+    },
+    {
+      "description": "Created a gradio application for generating code artifacts for several frameworks, consuming FastApi Api's.",
+      "replacements": [
+        { 
+          "label": "gradio", 
+          "url": "https://gradio.app"
+        },
+        { 
+          "label": "FastApi", 
+          "url": "https://fastapi.tiangolo.com"
+        }
+      ],
+      "annotations": [
+        {
+          "label": "",
+          "type": ""
+        }
+      ],
+      "startDate": "2023",
+      "endDate": "2023",
+      "tools": [
+        "Gradio (python)",
+        "FastAPI & Uvicorn (python)",
+        "DotNet Core 7 C# API services with Authentication/Authorization features",
+        "Entity Framework",
+        "VsCode",
+        "PostgreSQL 15.0 running on Docker"
+      ],
+      "screenShots": [
+        {
+          "name": "Angular",
+          "url": "angular.webp"
+        },
+        {
+          "name": "Blazor (C#)",
+          "url": "blazor.webp"
+        },
+        {
+          "name": "Dot.Net EF",
+          "url": "dot-net.webp"
+        },
+        {
+          "name": "Dot.Net EF Api",
+          "url": "dot-net-api.webp"
+        },
+        {
+          "name": "Dot.Net EF Infrastructure",
+          "url": "dot-net-infra.webp"
+        },
+        {
+          "name": "Flutter",
+          "url": "flutter.webp"
+        },
+        {
+          "name": "Quasar (Vue)",
+          "url": "quasar-vue.webp"
+        }
+      ]
+    },
+    {
+      "description": "Created a gradio application for generating LangChain applications.",
+      "replacements": [
+        { 
+          "label": "gradio", 
+          "url": "https://gradio.app"
+        },
+        { 
+          "label": "LangChain", 
+          "url": "https://wwww.langchain.com"
+        }
+      ],
+      "annotations": [
+        {
+          "label": "",
+          "type": ""
+        }
+      ],
+      "startDate": "2023",
+      "endDate": "2023",
+      "tools": [
+        "Gradio (python)",
+        "LangChain",
+        "React",
+        "Blockly (Google)",
+        "FastAPI & Uvicorn (python)"
+      ],
+      "screenShots": [
+        {
+          "name": "React Blockly",
+          "url": "langchain-blockly-react.webp"
+        },
+        {
+          "name": "Gradio",
+          "url": "lang-chain.webp"
+        }
+      ]
+    },
     {
       "description": "Created a client/server cross-platform application designer to quickly define database entities and generate applications/software artifacts from them using snippets and components (Lego like components)",
       "replacements": [
@@ -667,18 +822,14 @@
       "description": "Generated Artifact: GraphQL Apollo JavaScript server for backend API’s access with its schemas, resolvers and data sources",
       "replacements": [
         { 
-          "label": "", 
-          "url": ""
+          "label": "GraphQL Apollo",
+          "url": "https://www.apollographql.com"
         }
       ],
       "annotations": [
         {
-          "label": "Generated Artifact",
-          "type": "italic"
-        },
-        {
-          "label": "GraphQL Apollo",
-          "type": "bold"
+          "label": "",
+          "type": ""
         }
       ],
       "startDate": "2019",
@@ -697,18 +848,14 @@
       "description": "Generated Artifact: Angular 7/PrimeNG/NGX-Bootstrap TypeScript web client",
       "replacements": [
         { 
-          "label": "", 
-          "url": ""
+          "label": "Angular",
+          "url": "https://angular.io"
         }
       ],
       "annotations": [
         {
-          "label": "Generated Artifact",
-          "type": "italic"
-        },
-        {
-          "label": "Angular",
-          "type": "bold"
+          "label": "",
+          "type": ""
         }
       ],
       "startDate": "2019",
@@ -729,18 +876,14 @@
       "description": "Generated Artifact: React JavaScript web client (based on react-bootstrap)",
       "replacements": [
         { 
-          "label": "", 
-          "url": ""
+          "label": "React",
+          "url": "https://react.dev"
         }
       ],
       "annotations": [
         {
-          "label": "Generated Artifact",
-          "type": "italic"
-        },
-        {
-          "label": "React",
-          "type": "bold"
+          "label": "",
+          "type": ""
         }
       ],
       "startDate": "2019",
@@ -760,19 +903,11 @@
       "description": "Generated Artifact: Flutter Dart IOS/Android mobile application with DotNet Core 3 C# API services integration and Authentication/Authorization services",
       "replacements": [
         { 
-          "label": "", 
-          "url": ""
+          "label": "Flutter",
+          "url": "https://flutter.dev"
         }
       ],
       "annotations": [
-        {
-          "label": "Generated Artifact",
-          "type": "italic"
-        },
-        {
-          "label": "Flutter",
-          "type": "bold"
-        },
         {
           "label": "DotNet Core",
           "type": "bold"
@@ -809,18 +944,14 @@
       "description": "Generated Artifact: Tensorflow (including Hub) or FastAI Jupyter Notebook for Image or Text classification and Time series forecasting",
       "replacements": [
         { 
-          "label": "", 
-          "url": ""
+          "label": "Tensorflow",
+          "url": "https://www.tensorflow.org"
         }
       ],
       "annotations": [
         {
-          "label": "Generated Artifact",
-          "type": "italic"
-        },
-        {
-          "label": "Tensorflow",
-          "type": "bold"
+          "label": "",
+          "type": ""
         }
       ],
       "startDate": "2019",
@@ -898,7 +1029,7 @@
     },
     {
       "name": "Web Applications/Services development",
-      "stack": "JavaScript, TypeScript, GraphQL Apollo, Node Express, Objection (ORM), React-Redux, Gatsby, mocha, checkit, fake, choice, lodash, npm, yarn, etc.",
+      "stack": "TypeScript, JavaScript, Node Express, Objection (ORM), React-Redux, Gatsby &#185;, GraphQL Apollo &#185;, mocha, checkit, fake, npm, yarn, etc.",
       "level": "Proficient/Need Reference"
     },
     {
@@ -907,12 +1038,17 @@
       "level": "Proficient/Need Reference on PostgreSQL/MongoDb"
     },
     {
-      "name": "IOS/Android Mobile Applications",
-      "stack": "Flutter, Java",
+      "name": "Unit/Integration Testing",
+      "stack": "NUnit, XUnit, SpecFlow, Moq, mocha, jest",
       "level": "Proficient/Need Reference"
     },
     {
-      "name": "Machine Learning",
+      "name": "IOS/Android Mobile Applications &#185;",
+      "stack": "Flutter, Java",
+      "level": "Need Reference"
+    },
+    {
+      "name": "Machine Learning &#185;",
       "stack": "Tensorflow, Jupyter Notebooks",
       "level": "Basic/Need Reference"
     },
@@ -920,11 +1056,6 @@
       "name": "JHipster Spring-Boot",
       "stack": "Java microservices",
       "level": "Basic/Need Reference"
-    },
-    {
-      "name": "Unit/Integration Testing",
-      "stack": "NUnit, XUnit, SpecFlow, Moq, mocha, jest",
-      "level": "Proficient/Need Reference"
     },
     {
       "name": "Continuous Integration (CI)",
@@ -937,6 +1068,11 @@
       "level": "Developer role Knowledge"
     },
     {
+      "name": "Resourcefulness",
+      "stack": "Problem solver/Programming",
+      "level": "Proficient"
+    },
+    {
       "name": "Communication with Client/Management/Team peers",
       "stack": "Slack, HipChat, MS Teams",
       "level": "Proficient"
@@ -944,7 +1080,7 @@
   ],
   "hobies": [
     "Play guitar",
-    "Watch music videos",
+    "Watch music/conversation videos",
     "Read books",
     "Home coding for fun"
   ]

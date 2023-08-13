@@ -10,7 +10,7 @@ import Avatar from "./avatar"
 const Header = ({ siteTitle, subTitle, extraData }) => (
   <header
     style={{
-      background: `#007acc`,
+      background: `var(--info)`,
       marginBottom: `1.45rem`,
     }}
   >

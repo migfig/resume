@@ -16,6 +16,7 @@ const DevelopmentExperience = (props) => {
                     </li>
                 )}
             </ul>
+            Notes: <i>&#185;</i> = only in personal projects
         </section>
     );
 }

@@ -142,11 +142,11 @@ const Resume = (props) => {
     return (
         <React.Fragment>
             <DevelopmentExperience developmentExperience={resume.developmentExperience} />
-            <RecentExperience title="Recent Projects" recentProjects={resume.recentProjects} images={data.screenShotFiles.edges} />
             <Experience workExperience={resume.workExperience} />
             <Education education={resume.education} />
             <ProfessionalDevelopment certifications={resume.certifications} />
             <Languages idioms={resume.idioms} />
+            <RecentExperience title="Recent Personal Projects" recentProjects={resume.recentProjects} images={data.screenShotFiles.edges} />
             <Skills skills={resume.skills} />
             <RecentExperience title="Personal Programming Hobbies" recentProjects={resume.projects} images={data.screenShotFiles.edges} />
         </React.Fragment>

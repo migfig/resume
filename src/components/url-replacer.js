@@ -76,7 +76,7 @@ const UrlReplacer = (props) => {
                 return (
                     {
                         link: <a key={`a${i}`} href="#" onClick={p => windowOpen(p, e.href)}>{e.value}</a>,
-                        text: <span key={`v${i}`}>{e.value}</span>,
+                        text: <span key={`v${i}`} dangerouslySetInnerHTML={{__html: e.value}}></span>,
                         bold: <b key={`bv${i}`}>{e.value}</b>,
                         italic: <i key={`iv${i}`}>{e.value}</i>
                     }[e.type]

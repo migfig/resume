@@ -24,13 +24,13 @@ const RecentExperience = (props) => {
         <section className="mb-5">
             <h5>{title}</h5>
             <Accordion defaultActiveKey="0">
-                {recentProjects.map((prj, i) =>
+                {recentProjects.map((prj, i) => 
                     <Card key={`recPrj${i}`}>
                         <Accordion.Toggle as={Card.Header} eventKey={i} onClick={e => handleArrowState(i) }>
                             <Row>
                                 <Col lg={2}>
                                     <Arrow isExpanded={isExpanded[i]} />
-                                    {prj.startDate}-{prj.endDate}
+                                    {prj.startDate !== prj.endDate ? prj.startDate.toString() + '-' + prj.endDate.toString(): prj.endDate}
                                 </Col>
                                 <Col lg={10}>
                                     <UrlReplacer experience={prj} />
@@ -45,9 +45,10 @@ const RecentExperience = (props) => {
                                 </ul>
                                 <Carousel>
                                     {prj.screenShots.map((ss, i) => {
-                                        const image = images.find(im => im.node.name === ss.url.replace('.png', ''));
+                                        const image = images.find(im => im.node.name === ss.url.replace('.png', '') || im.node.name === ss.url.replace('.webp', ''));
+                                        const isGifImage = ss.url.includes('.webp');
                                         return <Carousel.Item key={`car${i}`}>
-                                            <Img fluid={image.node.childImageSharp.fluid} />
+                                            {isGifImage ? <img src={`/static/gifs/${ss.url.split('.')[0]}.gif`} /> :<Img fluid={image.node.childImageSharp.fluid} />}
                                             <Carousel.Caption>
                                                 <h6>
                                                     <div style={{
@@ -68,7 +69,7 @@ const RecentExperience = (props) => {
                                 </Carousel>
                             </Card.Body>
                         </Accordion.Collapse>
-                    </Card>
+                    </Card>                
                 )}
             </Accordion>
         </section>
